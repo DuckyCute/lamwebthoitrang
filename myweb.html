@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <script>
+        function size1(){
+            document.getElementById("btn1").style.backgroundColor="black" 
+            document.getElementById("btn1").style.color="white"
+        }
+            
+        function size2(){
+           document.getElementById("btn2").style.backgroundColor="black" 
+           document.getElementById("btn2").style.color="white"
+        }
+        function size3(){
+           document.getElementById("btn3").style.backgroundColor="black" 
+           document.getElementById("btn3").style.color="white"
+        }
+        function size4(){
+           document.getElementById("btn4").style.backgroundColor="black" 
+           document.getElementById("btn4").style.color="white"
+        }
+        function size5(){
+           document.getElementById("btn5").style.backgroundColor="black" 
+           document.getElementById("btn5").style.color="white"
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+<body>
+    <div class="picture">
+        <img src="set1.jpg" alt="">
+        <p><b>Set váy thiết kế Doris-mã SP:EMSET001</b></p>
+        <p><u>Price:</u> 500,000vnđ</p>
+    </div>
+    <div>
+        <ul class="smallone">
+            <img src="set1.jpg" alt="">
+            <img src="set2.jpg" alt="">
+            <img src="thoi-trang-nu_s11552.jpg" alt="">
+        </ul>
+    </div>
+    <div>
+        <p> <u>Pick a size:</u></p>
+        <ul class="picksize">
+            <li id="btn1" onclick="size1()">XS</li>
+            <li id="btn2" onclick="size2()">S</li>
+            <li id="btn3" onclick="size3()">M</li>
+            <li id="btn4" onclick="size4()">L</li>
+            <li id="btn5" onclick="size5()">XL</li>
+        </ul>
+    </div>
+    <div class="quantity">
+        <p><u>Quantity:</u></p>
+        <img src="daucong.jpg" alt="">
+        <input class="sl" type="number">
+        <img src="dautru.png" alt="">
+    </div>
+    <div>
+        <ul class="list">
+            <li class="dropdown">
+                <a class="dropbtn">MÔ TẢ SẢN PHẨM</a>
+                <div class="dropdown-content">
+                    <p><b>EMSET001</b> không chỉ đơn thuần là trang phục đồng bộ với gam màu tinh giản. Một outfit vừa thanh lịch, sang trọng và nhẹ nhàng cùng đường may tỉ mỉ, đường cut-out khéo léo giúp nàng nàng có ngay một vẻ ngoài chỉn chu và thời thượng khi xuất hiện ở bất kỳ đâu. </p>
+                    <p>* BẢNG SIZE</p>
+                    <p>(số đo tương ứng trên cơ thể để có thể nắm được mình nằm trong khoảng size sản phẩm - Size chart không phải số đo của sản phẩm )</p>
+                    <p>Dạ thông số size là :</p>
+                    <p>- size XS: cân nặng dưới 44, ngực 80-81, eo 60-62, mông 85-87cm</p>
+                    <p>- size S: cân nặng 45-49, ngực 82-84, eo 63-65, mông 88-89cm</p>
+                    <p>- size M: cân nặng 50-56, ngực 86-88, eo 67-68 , mông 89-90cm</p>
+                    <p>- size L: cân nặng 56-62, ngực 90-92, eo 70-72 , mông 90-92cm</p>
+                    <p>- size XL: cân nặng 62-65, ngực 94-96, eo 77-79 , mông 98-100cm</p>
+                    <p></p>
+                </div>
+            </li>
+            <li><a>HƯỚNG DẪN BẢO QUẢN</a></li>
+            <li><a>CHÍNH SÁCH ĐỔI SIZE</a></li>
+            <li><a>CÓ THỂ BẠN SẼ THÍCH</a></li>
+        </ul>
+    </div>
+</body>
+</html>
